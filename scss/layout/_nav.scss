@@ -1,0 +1,36 @@
+.navbar {
+  // bottom: 0 !important;
+  // position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 30px;
+  background-color: rgba(26, 26, 26, 0.51) !important;
+  max-height: 60px;
+
+  a {
+    color: $nav-bar-color;
+    font-family: $primary-font;
+  }
+
+
+}
+//
+// .navbar-custom {
+//   .nav-link {
+//   color: $nav-bar-color !important;
+//   transition: color 1s linear;
+// }
+//  }
+
+
+.nav-link {
+  transition:1s;
+
+}
+
+.nav-link:hover {
+    color: #FFF;
+    font-size: 40px;
+    // transition: translateY(40deg);
+
+}

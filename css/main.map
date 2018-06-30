@@ -1,0 +1,36 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/base/_variables.scss",
+		"../scss/base/_mixins.scss",
+		"../scss/base/_reset.scss",
+		"../scss/base/_base.scss",
+		"../scss/layout/_header.scss",
+		"../scss/layout/_footer.scss",
+		"../scss/layout/_nav.scss",
+		"../scss/modules/_typography.scss",
+		"../scss/modules/_buttons.scss",
+		"../scss/modules/_blocks.scss",
+		"../scss/modules/_components.scss",
+		"../scss/modules/_sections.scss"
+	],
+	"sourcesContent": [
+		"@import 'base/_variables.scss';\r\n@import 'base/_mixins.scss';\r\n@import 'base/_reset.scss';\r\n@import 'base/_base.scss';\r\n\r\n@import 'layout/_header.scss';\r\n@import 'layout/_footer.scss';\r\n@import 'layout/nav.scss';\r\n\r\n@import 'modules/_typography.scss';\r\n@import 'modules/_buttons.scss';\r\n@import 'modules/_blocks.scss';\r\n@import 'modules/_components.scss';\r\n@import 'modules/sections.scss';\r\n",
+		"$primary-color: rgba(0, 141, 217, 0.85);\r\n$light-color: #fff;\r\n$nav-bar-color: rgb(181, 158, 130);\r\n\r\n$primary-font: 'Volkhov', serif;\r\n",
+		"",
+		"",
+		"body {\r\n  overflow-y: hidden;\r\n}\r\n",
+		"",
+		"",
+		".navbar {\r\n  // bottom: 0 !important;\r\n  // position: fixed;\r\n  width: 100%;\r\n  margin: 0 auto;\r\n  font-size: 30px;\r\n  background-color: rgba(26, 26, 26, 0.51) !important;\r\n  max-height: 60px;\r\n\r\n  a {\r\n    color: $nav-bar-color;\r\n    font-family: $primary-font;\r\n  }\r\n\r\n\r\n}\r\n//\r\n// .navbar-custom {\r\n//   .nav-link {\r\n//   color: $nav-bar-color !important;\r\n//   transition: color 1s linear;\r\n// }\r\n//  }\r\n\r\n\r\n.nav-link {\r\n  transition:1s;\r\n\r\n}\r\n\r\n.nav-link:hover {\r\n    color: #FFF;\r\n    font-size: 40px;\r\n    // transition: translateY(40deg);\r\n\r\n}\r\n",
+		"",
+		"",
+		"",
+		"",
+		".section-main {\r\n  height: 100vh;\r\n  width: 600vh;\r\n  background-image: url('../img/beach1.jpg');\r\n  background-position: cover;\r\n  background-size: cover;\r\n\r\n    .parce {\r\n      height: 600px;\r\n      width: 450px;\r\n    }\r\n    .timeout {\r\n      height: 450px;\r\n      width: 600px;\r\n    }\r\n\r\n    .magazine {\r\n      height: 600px;\r\n      width: 500px;\r\n    }\r\n\r\n    .firstLayer{\r\n      z-index: 2;\r\n    }\r\n\r\n    .rvlvr {\r\n      margin-left: -250px;\r\n      margin-bottom: 450px;\r\n    }\r\n\r\n    .3dart {\r\n      height: 250px;\r\n      width: 300px;\r\n    }\r\n\r\n  }\r\n\r\n.secondLayer {\r\n  position: static;\r\n  z-index: 1\r\n}\r\n"
+	],
+	"mappings": ";AIAA,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,MAAO;CACpB;;;AGFD,AAAA,OAAO,CAAC;EAGN,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,MAAO;EACf,SAAS,EAAE,IAAK;EAChB,gBAAgB,EAAE,sBAAI,CAAmB,UAAU;EACnD,UAAU,EAAE,IAAK;CAQlB;;;AAfD,AASE,OATK,CASL,CAAC,CAAC;EACA,KAAK,ENRO,OAAG;EMSf,WAAW,ENPA,SAAS,EAAE,KAAK;CMQ5B;;;AAaH,AAAA,SAAS,CAAC;EACR,UAAU,EAAC,EAAG;CAEf;;;AAED,AAAS,SAAA,AAAA,MAAM,CAAC;EACZ,KAAK,EAAE,IAAK;EACZ,SAAS,EAAE,IAAK;CAGnB;;;AKnCD,AAAA,aAAa,CAAC;EACZ,MAAM,EAAE,KAAM;EACd,KAAK,EAAE,KAAM;EACb,gBAAgB,EAAE,wBAAG;EACrB,mBAAmB,EAAE,KAAM;EAC3B,eAAe,EAAE,KAAM;CA8BtB;;;AAnCH,AAOI,aAPS,CAOT,MAAM,CAAC;EACL,MAAM,EAAE,KAAM;EACd,KAAK,EAAE,KAAM;CACd;;;AAVL,AAWI,aAXS,CAWT,QAAQ,CAAC;EACP,MAAM,EAAE,KAAM;EACd,KAAK,EAAE,KAAM;CACd;;;AAdL,AAgBI,aAhBS,CAgBT,SAAS,CAAC;EACR,MAAM,EAAE,KAAM;EACd,KAAK,EAAE,KAAM;CACd;;;AAnBL,AAqBI,aArBS,CAqBT,WAAW,CAAA;EACT,OAAO,EAAE,CAAE;CACZ;;;AAvBL,AAyBI,aAzBS,CAyBT,MAAM,CAAC;EACL,WAAW,EAAE,MAAO;EACpB,aAAa,EAAE,KAAM;CACtB;;;AA5BL,AA8BI,aA9BS,CA8BT,MAAM,CAAC;EACL,MAAM,EAAE,KAAM;EACd,KAAK,EAAE,KAAM;CACd;;;AAIL,AAAA,YAAY,CAAC;EACX,QAAQ,EAAE,MAAO;EACjB,OAAO,EAAE,CACV;CAAC",
+	"names": []
+}

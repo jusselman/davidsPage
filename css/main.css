@@ -1,0 +1,82 @@
+/* line 1, C:/Users/Josue/Desktop/david/scss/base/_base.scss */
+body {
+  overflow-y: hidden;
+}
+
+/* line 1, C:/Users/Josue/Desktop/david/scss/layout/_nav.scss */
+.navbar {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 30px;
+  background-color: rgba(26, 26, 26, 0.51) !important;
+  max-height: 60px;
+}
+
+/* line 10, C:/Users/Josue/Desktop/david/scss/layout/_nav.scss */
+.navbar a {
+  color: #b59e82;
+  font-family: "Volkhov", serif;
+}
+
+/* line 26, C:/Users/Josue/Desktop/david/scss/layout/_nav.scss */
+.nav-link {
+  transition: 1s;
+}
+
+/* line 31, C:/Users/Josue/Desktop/david/scss/layout/_nav.scss */
+.nav-link:hover {
+  color: #FFF;
+  font-size: 40px;
+}
+
+/* line 1, C:/Users/Josue/Desktop/david/scss/modules/_sections.scss */
+.section-main {
+  height: 100vh;
+  width: 600vh;
+  background-image: url("../img/beach1.jpg");
+  background-position: cover;
+  background-size: cover;
+}
+
+/* line 8, C:/Users/Josue/Desktop/david/scss/modules/_sections.scss */
+.section-main .parce {
+  height: 600px;
+  width: 450px;
+}
+
+/* line 12, C:/Users/Josue/Desktop/david/scss/modules/_sections.scss */
+.section-main .timeout {
+  height: 450px;
+  width: 600px;
+}
+
+/* line 17, C:/Users/Josue/Desktop/david/scss/modules/_sections.scss */
+.section-main .magazine {
+  height: 600px;
+  width: 500px;
+}
+
+/* line 22, C:/Users/Josue/Desktop/david/scss/modules/_sections.scss */
+.section-main .firstLayer {
+  z-index: 2;
+}
+
+/* line 26, C:/Users/Josue/Desktop/david/scss/modules/_sections.scss */
+.section-main .rvlvr {
+  margin-left: -250px;
+  margin-bottom: 450px;
+}
+
+/* line 31, C:/Users/Josue/Desktop/david/scss/modules/_sections.scss */
+.section-main .3dart {
+  height: 250px;
+  width: 300px;
+}
+
+/* line 38, C:/Users/Josue/Desktop/david/scss/modules/_sections.scss */
+.secondLayer {
+  position: static;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=../css/main.map */

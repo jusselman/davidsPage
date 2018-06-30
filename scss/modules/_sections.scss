@@ -1,0 +1,41 @@
+.section-main {
+  height: 100vh;
+  width: 600vh;
+  background-image: url('../img/beach1.jpg');
+  background-position: cover;
+  background-size: cover;
+
+    .parce {
+      height: 600px;
+      width: 450px;
+    }
+    .timeout {
+      height: 450px;
+      width: 600px;
+    }
+
+    .magazine {
+      height: 600px;
+      width: 500px;
+    }
+
+    .firstLayer{
+      z-index: 2;
+    }
+
+    .rvlvr {
+      margin-left: -250px;
+      margin-bottom: 450px;
+    }
+
+    .3dart {
+      height: 250px;
+      width: 300px;
+    }
+
+  }
+
+.secondLayer {
+  position: static;
+  z-index: 1
+}
